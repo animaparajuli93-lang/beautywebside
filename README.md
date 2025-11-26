@@ -1,2 +1,0 @@
-# beautywebside
-project about beauty
