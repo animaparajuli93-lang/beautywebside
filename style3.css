@@ -1,0 +1,137 @@
+/* Base styling */
+body {
+    margin: 0;
+    padding: 20px 40px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f4faf7;
+    color: #333;
+    line-height: 1.7;
+}
+
+/* Main heading */
+h1 {
+    text-align: center;
+    font-size: 46px;
+    color: #2f6f5e;
+    margin-bottom: 5px;
+}
+
+/* Tagline */
+p:first-of-type {
+    text-align: center;
+    font-size: 18px;
+    color: #5a8f7b;
+    margin-bottom: 20px;
+}
+
+/* Navigation links */
+a {
+    text-decoration: none;
+    color: #2f6f5e;
+    font-weight: 500;
+    margin: 0 10px;
+}
+
+a:hover {
+    color: #1e4f42;
+    text-decoration: underline;
+}
+
+/* Divider */
+hr {
+    border: none;
+    height: 1px;
+    background-color: #cfe5dc;
+    margin: 25px 0;
+}
+
+/* Intro text */
+p {
+    background-color: #ffffff;
+    padding: 15px 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Form styling */
+form {
+    background-color: #ffffff;
+    padding: 25px;
+    max-width: 500px;
+    margin: 30px auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Labels */
+label {
+    font-weight: 500;
+    color: #2f6f5e;
+}
+
+/* Inputs & textarea */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border-radius: 8px;
+    border: 1px solid #cfe5dc;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Submit button */
+input[type="submit"] {
+    background-color: #2f6f5e;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #1e4f42;
+}
+
+/* Contact info heading */
+h2 {
+    color: #2f6f5e;
+    margin-top: 40px;
+}
+
+/* Contact info text */
+h2 + p,
+h2 + p + p {
+    background-color: #ffffff;
+    padding: 12px 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    max-width: 500px;
+}
+
+/* Email link */
+a[href^="mailto"] {
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    body {
+        padding: 15px;
+    }
+
+    form {
+        width: 100%;
+    }
+}
